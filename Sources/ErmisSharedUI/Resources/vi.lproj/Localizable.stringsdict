@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>messageList.jump-to-unread-button</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@unreads@</string>
+		<key>unreads</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d chưa đọc</string>
+			<key>other</key>
+			<string>%d chưa đọc</string>
+		</dict>
+	</dict>
+	<key>messageList.typingIndicator.users</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$@%2$#@typing@</string>
+		<key>typing</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string> đang nhập</string>
+			<key>one</key>
+			<string> và %2$d người khác đang nhập</string>
+			<key>other</key>
+			<string> và %2$d người khác đang nhập</string>
+		</dict>
+	</dict>
+	<key>message.threads.count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@replies@</string>
+		<key>replies</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Không có trả lời trong Thread</string>
+			<key>one</key>
+			<string>%d trả lời trong Thread</string>
+			<key>other</key>
+			<string>%d trả lời trong Thread</string>
+		</dict>
+	</dict>
+	<key>message.thread.replies.count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@replies@</string>
+		<key>replies</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>KHÔNG CÓ TRẢ LỜI</string>
+			<key>one</key>
+			<string>%d TRẢ LỜI</string>
+			<key>other</key>
+			<string>%d TRẢ LỜI</string>
+		</dict>
+	</dict>
+	<key>message.unread.count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@unread@</string>
+		<key>unread</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>TIN NHẮN CHƯA ĐỌC</string>
+			<key>one</key>
+			<string>%d TIN NHẮN CHƯA ĐỌC</string>
+			<key>other</key>
+			<string>%d TIN NHẮN CHƯA ĐỌC</string>
+		</dict>
+	</dict>
+	<key>reaction.authors.number-of-reactions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@reactions@</string>
+		<key>reactions</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>%d Cảm xúc</string>
+			<key>one</key>
+			<string>%d Cảm xúc</string>
+			<key>other</key>
+			<string>%d Cảm xúc</string>
+		</dict>
+	</dict>
+	<key>recording.presentation.name</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@recording@</string>
+		<key>recording</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Đang ghi âm(%d)</string>
+			<key>zero</key>
+			<string>Đang ghi âm</string>
+			<key>one</key>
+			<string>Đang ghi âm(%d)</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
