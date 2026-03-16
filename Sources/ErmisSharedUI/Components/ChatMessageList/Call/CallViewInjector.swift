@@ -26,5 +26,5 @@ open class CallViewInjector: NSObject, CustomCellViewInjectorProtocol {
 
     open func contentViewDidLayout(options: MessageLayoutOptions) {}
 
-    open func contentViewDidcontentDidChanged() {}
+    open func contentViewContentDidChanged() {}
 }

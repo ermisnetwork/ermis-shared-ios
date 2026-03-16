@@ -65,6 +65,7 @@ public extension Theme {
         public var block: UIImage = loadImageSafely(with: "block")
         public var mute: UIImage = loadImageSafely(with: "ic_mute_user")
         public var favorite: UIImage = loadImageSafely(with: "ic_favorite")
+        public var encryption: UIImage = loadImageSafely(with: "ic_lock")
         // Composer Menu
         public var composerMenuLocation: UIImage = loadSafely(systemName: "location.circle.fill")
         public var composerMenuFile: UIImage = loadSafely(systemName: "document.circle")

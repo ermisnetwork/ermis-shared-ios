@@ -13,5 +13,5 @@ public protocol CustomCellViewInjectorProtocol {
     /// Called after the `contentView` finished its `layout(options:)` methods.
     func contentViewDidLayout(options: MessageLayoutOptions)
     /// Called after `contentView.updateContent` is called.
-    func contentViewDidcontentDidChanged()
+    func contentViewContentDidChanged()
 }
