@@ -17,7 +17,7 @@ public struct LogSubsystem: OptionSet, Sendable {
     }
 
     /// All subsystems within the SDK.
-    public static let all: LogSubsystem = [.database, .httpRequests, .webSocket, .other, .offlineSupport, .authentication, .audioPlayback, .webRTC, .call, .test]
+    public static let all: LogSubsystem = [.database, .httpRequests, .webSocket, .other, .offlineSupport, .authentication, .audioPlayback, .webRTC, .call, .mls, .test]
 
     /// The subsystem responsible for any other part of the SDK.
     /// This is the default subsystem value for logging, to be used when `subsystem` is not specified.
@@ -41,8 +41,11 @@ public struct LogSubsystem: OptionSet, Sendable {
     public static let call = Self(rawValue: 1 << 8)
     /// The subsystem responsible for webRTC.
     public static let webRTC = Self(rawValue: 1 << 9)
+    /// The subsystem responsible for MLS.
+    public static let mls = Self(rawValue: 1 << 10)
     /// The subsystem responsible for test.
-    public static let test = Self(rawValue: 1 << 10)
+    public static let test = Self(rawValue: 1 << 11)
+    public static let testmls: LogSubsystem = [.webSocket, .mls]
 }
 
 public enum LogConfig {
